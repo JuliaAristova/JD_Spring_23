@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Bean Scope - Singleton, Prototype">
+      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/java/org/example/App_LC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/java/org/example/services/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/test/java/org/example/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2QwTLvfW8OQp5KsghcdZMaL7Nen" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-02-DI-SetterInjection/src/main/java/org/example/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "build.tools",
+    "spring.configuration.checksum": "e07bbe34041f81925e7b16d9b73a2b14",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-02-DI-SetterInjection\src\main\java\org\example\services" />
+      <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-02-DI-SetterInjection\src\main\java\org\example\interfaces" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-01-SpringContainer\src\main\java\org" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.services" />
+      <recent name="org.example" />
+      <recent name="services" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.App_LC">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="Spring-01-SpringContainer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDI_1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AppDI_1" />
+      <module name="Spring-02-DI-ConstructorInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppDI_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AppDI_2" />
+      <module name="Spring-02-DI-SetterInjection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_LC" />
+      <module name="Spring-04-BeanLifeCycle-Init-Destroy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App_Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_Scope" />
+      <module name="Spring-03-BeanScope-Singleton-Prototype" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test_LC" />
+      <module name="Spring-00-LooselyCoupled" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App_LC" />
+        <item itemvalue="Application.App_Scope" />
+        <item itemvalue="Application.AppDI_2" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Test_LC" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="" />
+      <created>1686263646949</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686263646949</updated>
+      <workItem from="1686263647040" duration="12261000" />
+      <workItem from="1686308945937" duration="4288000" />
+      <workItem from="1686332995186" duration="6106000" />
+    </task>
+    <task id="LOCAL-00001" summary="Tightly Coupled">
+      <created>1686265212732</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686265212732</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Loosely Coupled">
+      <created>1686267674878</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686267674878</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Container - XML configuration">
+      <created>1686279269747</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686279269747</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Dependency Injection - Constructor Injection">
+      <created>1686333409470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686333409470</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Dependency Injection - Setter Injection">
+      <created>1686337912742</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686337912742</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Bean Scope - Singleton, Prototype">
+      <created>1686339392368</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686339392368</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tightly Coupled" />
+    <MESSAGE value="Loosely Coupled" />
+    <MESSAGE value="Container - XML configuration" />
+    <MESSAGE value="Dependency Injection - Constructor Injection" />
+    <MESSAGE value="Dependency Injection - Setter Injection" />
+    <MESSAGE value="Bean Scope - Singleton, Prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bean Scope - Singleton, Prototype" />
+  </component>
+</project>
