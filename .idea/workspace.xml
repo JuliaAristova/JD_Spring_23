@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Bean Scope - Singleton, Prototype">
-      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/java/org/example/App_LC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/java/org/example/services/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/main/resources/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-04-BeanLifeCycle-Init-Destroy/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Life Cycle - Init, Destroy">
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/main/java/org/example/App_JA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/main/java/org/example/services/API.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/main/java/org/example/services/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/main/java/org/example/services/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Component/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,14 +29,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ee7c1fce-b867-4d23-bb4f-5ec4217100be" />
+        <option name="url" value="https://github.com/JuliaAristova/JD_Spring_23.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,8 +85,11 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "build.tools",
-    "spring.configuration.checksum": "e07bbe34041f81925e7b16d9b73a2b14",
+    "spring.configuration.checksum": "d425d8f777d085ea55d5f0132a9bd91a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -89,7 +111,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_LC">
+  <component name="RunManager" selected="Application.App_JA">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Spring-01-SpringContainer" />
@@ -129,6 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App_JA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_JA" />
+      <module name="Spring-05-JavaAnnotations-Component" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App_LC" />
       <module name="Spring-04-BeanLifeCycle-Init-Destroy" />
@@ -155,20 +190,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test_LC" />
-      <module name="Spring-00-LooselyCoupled" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App_JA" />
         <item itemvalue="Application.App_LC" />
         <item itemvalue="Application.App_Scope" />
         <item itemvalue="Application.AppDI_2" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.Test_LC" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +211,7 @@
       <workItem from="1686263647040" duration="12261000" />
       <workItem from="1686308945937" duration="4288000" />
       <workItem from="1686332995186" duration="6106000" />
+      <workItem from="1686413951129" duration="2405000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
