@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Annotation - Component">
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/App_AW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/interfaces/ExtraSessions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/services/API.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/services/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/services/OfficeHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/services/Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/resources/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Annotation - Autowired">
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/App_Q.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/interfaces/ExtraSessions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/services/InterviewPreparations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/services/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/services/OfficeHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/java/org/example/services/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/main/resources/config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Qualifier/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/services/API.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Autowire/src/main/java/org/example/services/API.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +92,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "build.tools",
-    "spring.configuration.checksum": "939444a233023677207943bbe56b5062",
+    "spring.configuration.checksum": "5bb1864cc3ff812c5575a5eda8caccae",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,6 +107,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="org.example" />
     </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="org.example.services" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.services" />
       <recent name="org.example" />
@@ -113,8 +117,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_AW">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.App_Q">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="Spring-05-JavaAnnotations-Autowire" />
       <extension name="coverage">
@@ -179,9 +183,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App_Scope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App_Scope" />
-      <module name="Spring-03-BeanScope-Singleton-Prototype" />
+    <configuration name="App_Q" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_Q" />
+      <module name="Spring-05-JavaAnnotations-Qualifier" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -194,11 +198,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App_Q" />
         <item itemvalue="Application.App_AW" />
-        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App_JA" />
         <item itemvalue="Application.App_LC" />
-        <item itemvalue="Application.App_Scope" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +217,9 @@
       <workItem from="1686308945937" duration="4288000" />
       <workItem from="1686332995186" duration="6106000" />
       <workItem from="1686413951129" duration="2811000" />
-      <workItem from="1686432426761" duration="2202000" />
+      <workItem from="1686432426761" duration="2852000" />
+      <workItem from="1686487617231" duration="613000" />
+      <workItem from="1686488245217" duration="1575000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
@@ -265,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686432124236</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Java Annotation - Autowired">
+      <created>1686487167644</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686487167644</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +302,7 @@
     <MESSAGE value="Dependency Injection - Setter Injection" />
     <MESSAGE value="Bean Scope - Singleton, Prototype" />
     <MESSAGE value="Java Annotation - Component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Annotation - Component" />
+    <MESSAGE value="Java Annotation - Autowired" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Annotation - Autowired" />
   </component>
 </project>
