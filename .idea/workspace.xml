@@ -4,30 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Annotation - Qualifier">
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/java/org/example/App_V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/java/org/example/interfaces/ExtraSessions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/java/org/example/services/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/java/org/example/services/OfficeHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/resources/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Annotation - Value">
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/App_JC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/configs/SprAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/interfaces/ExtraSessions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/Cypress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/InterviewPrep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/OfficeHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-LooselyCoupled/Test_LC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-LooselyCoupled/interfaces/Mentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-LooselyCoupled/services/FulltimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-LooselyCoupled/services/MIMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-LooselyCoupled/services/MentorAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-LooselyCoupled/services/ParttimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-TightlyCoupled/FullTimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-TightlyCoupled/Mentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-TightlyCoupled/PartTimeMentor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Spring-00-TightlyCoupled/TestApp.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,25 +78,25 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-02-DI-SetterInjection/src/main/java/org/example/services&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;5bb1864cc3ff812c5575a5eda8caccae&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-20",
+    "last_opened_file_path": "C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-02-DI-SetterInjection/src/main/java/org/example/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "build.tools",
+    "spring.configuration.checksum": "bdbb250ba80f0f14f90f3dbdf515cd08",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-02-DI-SetterInjection\src\main\java\org\example\services" />
@@ -125,7 +118,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_V">
+  <component name="RunManager" selected="Application.App_JC">
     <configuration name="AppDI_1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppDI_1" />
       <module name="Spring-02-DI-ConstructorInjection" />
@@ -165,9 +158,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App_LC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App_LC" />
-      <module name="Spring-04-BeanLifeCycle-Init-Destroy" />
+    <configuration name="App_JC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_JC" />
+      <module name="Spring-06-JavaCode-Configuration" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -206,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App_JC" />
         <item itemvalue="Application.App_V" />
         <item itemvalue="Application.App_Q" />
         <item itemvalue="Application.App_AW" />
         <item itemvalue="Application.App_JA" />
-        <item itemvalue="Application.App_LC" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +222,8 @@
       <workItem from="1686432426761" duration="2852000" />
       <workItem from="1686487617231" duration="613000" />
       <workItem from="1686488245217" duration="3150000" />
-      <workItem from="1686492195712" duration="1571000" />
+      <workItem from="1686492195712" duration="3333000" />
+      <workItem from="1686500767729" duration="4552000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
@@ -294,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686490899740</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java Annotation - Value">
+      <created>1686493989485</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686493989485</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,6 +322,7 @@
     <MESSAGE value="Java Annotation - Component" />
     <MESSAGE value="Java Annotation - Autowired" />
     <MESSAGE value="Java Annotation - Qualifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Annotation - Qualifier" />
+    <MESSAGE value="Java Annotation - Value" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Annotation - Value" />
   </component>
 </project>

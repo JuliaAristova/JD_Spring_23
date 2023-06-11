@@ -13,6 +13,7 @@
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-04-BeanLifeCycle-Init-Destroy" />
         <module name="Spring-02-DI-SetterInjection" />
+        <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-05-JavaAnnotations-Autowire" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
