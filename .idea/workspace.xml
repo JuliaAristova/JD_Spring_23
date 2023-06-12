@@ -4,19 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Annotation - Value">
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/App_JC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/configs/SprAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/interfaces/ExtraSessions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/Cypress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/InterviewPrep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/OfficeHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java/org/example/services/Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Code - Configuration">
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/App_PC_PD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/configs/SprAppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/services/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/services/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -118,7 +113,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_JC">
+  <component name="RunManager" selected="Application.App_PC_PD">
     <configuration name="AppDI_1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppDI_1" />
       <module name="Spring-02-DI-ConstructorInjection" />
@@ -145,9 +140,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App_JA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App_JA" />
-      <module name="Spring-05-JavaAnnotations-Component" />
+    <configuration name="App_JC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_JC" />
+      <module name="Spring-06-JavaCode-Configuration" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -158,9 +153,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App_JC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App_JC" />
-      <module name="Spring-06-JavaCode-Configuration" />
+    <configuration name="App_PC_PD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App_PC_PD" />
+      <module name="Spring-06-JavaCode-PostConstruct-PreDeploy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
@@ -199,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App_PC_PD" />
         <item itemvalue="Application.App_JC" />
         <item itemvalue="Application.App_V" />
         <item itemvalue="Application.App_Q" />
         <item itemvalue="Application.App_AW" />
-        <item itemvalue="Application.App_JA" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +218,7 @@
       <workItem from="1686487617231" duration="613000" />
       <workItem from="1686488245217" duration="3150000" />
       <workItem from="1686492195712" duration="3333000" />
-      <workItem from="1686500767729" duration="4552000" />
+      <workItem from="1686500767729" duration="7113000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
@@ -295,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686493989485</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Java Code - Configuration">
+      <created>1686509951065</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1686509951065</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +325,7 @@
     <MESSAGE value="Java Annotation - Autowired" />
     <MESSAGE value="Java Annotation - Qualifier" />
     <MESSAGE value="Java Annotation - Value" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Annotation - Value" />
+    <MESSAGE value="Java Code - Configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Code - Configuration" />
   </component>
 </project>

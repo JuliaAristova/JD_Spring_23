@@ -21,5 +21,7 @@
     <file url="file://$PROJECT_DIR$/Spring-05-JavaAnnotations-Value/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-06-JavaCode-Configuration/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/resources" charset="UTF-8" />
   </component>
 </project>
