@@ -4,18 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Code - Configuration">
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/App_PC_PD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/configs/SprAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/interfaces/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/services/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/services/Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Code - PostConstruct PreDeploy">
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/Spring07SpringBootDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/interfaces/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/interfaces/ExtraSession.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/InterviewPrep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/Java.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/OfficeHours.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/Selenium.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/test/java/com/example/springDemo/Spring07SpringBootDemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/App_PC_PD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/App_PC_PD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,12 +78,20 @@
     <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="2QwTLvfW8OQp5KsghcdZMaL7Nen" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -86,9 +103,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "build.tools",
-    "spring.configuration.checksum": "bdbb250ba80f0f14f90f3dbdf515cd08",
+    "project.structure.side.proportion": "0.5011494",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "spring.configuration.checksum": "e4c3706b056d97e27d9d41342b93a5a6",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -107,13 +124,14 @@
       <recent name="org.example.services" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.springDemo.services" />
       <recent name="org.example.services" />
       <recent name="org.example" />
       <recent name="services" />
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App_PC_PD">
+  <component name="RunManager" selected="Spring Boot.Spring07SpringBootDemoApplication">
     <configuration name="AppDI_1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppDI_1" />
       <module name="Spring-02-DI-ConstructorInjection" />
@@ -192,6 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring07SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-07-SpringBoot-Demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springDemo.Spring07SpringBootDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App_PC_PD" />
@@ -218,7 +243,10 @@
       <workItem from="1686487617231" duration="613000" />
       <workItem from="1686488245217" duration="3150000" />
       <workItem from="1686492195712" duration="3333000" />
-      <workItem from="1686500767729" duration="7113000" />
+      <workItem from="1686500767729" duration="8437000" />
+      <workItem from="1686595823069" duration="1786000" />
+      <workItem from="1686602692064" duration="515000" />
+      <workItem from="1686614958728" duration="5178000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
@@ -297,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686509951065</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Java Code - PostConstruct PreDeploy">
+      <created>1686589097108</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1686589097108</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +350,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Tightly Coupled" />
     <MESSAGE value="Loosely Coupled" />
     <MESSAGE value="Container - XML configuration" />
@@ -326,6 +362,7 @@
     <MESSAGE value="Java Annotation - Qualifier" />
     <MESSAGE value="Java Annotation - Value" />
     <MESSAGE value="Java Code - Configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Code - Configuration" />
+    <MESSAGE value="Java Code - PostConstruct PreDeploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Code - PostConstruct PreDeploy" />
   </component>
 </project>
