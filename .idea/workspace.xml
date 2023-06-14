@@ -4,27 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Java Code - PostConstruct PreDeploy">
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/Spring07SpringBootDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/interfaces/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/interfaces/ExtraSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/InterviewPrep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/Java.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/OfficeHours.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/java/com/example/springDemo/services/Selenium.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-07-SpringBoot-Demo/src/test/java/com/example/springDemo/Spring07SpringBootDemoApplicationTests.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Spring Boot demo">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/CarpetCalculatorApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/enums/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/interfaces/carpetPrices/Carpet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/interfaces/floorTypes/Floor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/services/carpets/CarpetTX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/services/carpets/CarpetVA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/services/floors/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/services/floors/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/java/com/carpetworld/carpetcalculator/services/floors/LivingRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarpetCalculator/src/test/java/com/carpetworld/carpetcalculator/CarpetCalculatorApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/App_PC_PD.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-06-JavaCode-PostConstruct-PreDeploy/src/main/java/org/example/App_PC_PD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +37,28 @@
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/CarpetCalculator">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -85,30 +106,31 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-02-DI-SetterInjection/src/main/java/org/example/services",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.5011494",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "spring.configuration.checksum": "e4c3706b056d97e27d9d41342b93a5a6",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-20&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-02-DI-SetterInjection/src/main/java/org/example/services&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.5011494&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;e4c3706b056d97e27d9d41342b93a5a6&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-02-DI-SetterInjection\src\main\java\org\example\services" />
@@ -131,7 +153,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring07SpringBootDemoApplication">
+  <component name="RunManager" selected="Spring Boot.CarpetCalculatorApplication">
     <configuration name="AppDI_1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppDI_1" />
       <module name="Spring-02-DI-ConstructorInjection" />
@@ -210,6 +232,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarpetCalculatorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="carpetCalculator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.carpetworld.carpetcalculator.CarpetCalculatorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring07SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-07-SpringBoot-Demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springDemo.Spring07SpringBootDemoApplication" />
@@ -247,6 +276,8 @@
       <workItem from="1686595823069" duration="1786000" />
       <workItem from="1686602692064" duration="515000" />
       <workItem from="1686614958728" duration="5178000" />
+      <workItem from="1686690066289" duration="2307000" />
+      <workItem from="1686748620801" duration="7629000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
@@ -332,7 +363,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686589097108</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Spring Boot demo">
+      <created>1686690122216</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686690122216</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +401,7 @@
     <MESSAGE value="Java Annotation - Value" />
     <MESSAGE value="Java Code - Configuration" />
     <MESSAGE value="Java Code - PostConstruct PreDeploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Code - PostConstruct PreDeploy" />
+    <MESSAGE value="Spring Boot demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring Boot demo" />
   </component>
 </project>
