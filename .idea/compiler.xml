@@ -10,12 +10,14 @@
         <module name="Spring-05-JavaAnnotations-Value" />
         <module name="carpetCalculator" />
         <module name="Spring-07-SpringBoot-Demo" />
+        <module name="Spring-11-Rest-Http-Legacy" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDeploy" />
         <module name="Spring-02-DI-SetterInjection" />
         <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-01-SpringContainer" />
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-08-SpringBoot-MVC-Controller" />
         <module name="Spring-04-BeanLifeCycle-Init-Destroy" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-05-JavaAnnotations-Autowire" />
@@ -29,6 +31,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-07-SpringBoot-Demo" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
+      <module name="Spring-11-Rest-Http-Legacy" options="-parameters" />
       <module name="carpetCalculator" options="-parameters" />
     </option>
   </component>
