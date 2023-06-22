@@ -19,6 +19,7 @@
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
         <module name="Spring-04-BeanLifeCycle-Init-Destroy" />
+        <module name="Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf" />
         <module name="Spring-02-DI-ConstructorInjection" />
         <module name="Spring-05-JavaAnnotations-Autowire" />
         <module name="Spring-05-JavaAnnotations-Qualifier" />
@@ -32,6 +33,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-07-SpringBoot-Demo" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
+      <module name="Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf" options="-parameters" />
       <module name="Spring-11-Rest-Http-Legacy" options="-parameters" />
       <module name="carpetCalculator" options="-parameters" />
     </option>

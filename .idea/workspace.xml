@@ -4,25 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="Carpet cost calculator">
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/main/java/com/example/spring08springbootmvccontroller/Spring08SpringBootMvcControllerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/main/java/com/example/spring08springbootmvccontroller/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/main/java/com/example/spring08springbootmvccontroller/controller/MentorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/main/java/com/example/spring08springbootmvccontroller/controller/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/main/resources/templates/Home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Controller/src/test/java/com/example/spring08springbootmvccontroller/Spring08SpringBootMvcControllerApplicationTests.java" afterDir="false" />
+    <list default="true" id="e09ede96-f9d7-47ef-9143-7be82fb01e8a" name="Changes" comment="SpringBoot MVC Controller">
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/java/com/example/spring08springbootmvcmodelveiwthymeleaf/Spring08SpringBootMvcModelVeiwThymeLeafApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/java/com/example/spring08springbootmvcmodelveiwthymeleaf/controller/mentor/MentorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/java/com/example/spring08springbootmvcmodelveiwthymeleaf/controller/student/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/java/com/example/spring08springbootmvcmodelveiwthymeleaf/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/java/com/example/spring08springbootmvcmodelveiwthymeleaf/model/Mentor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/java/com/example/spring08springbootmvcmodelveiwthymeleaf/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/resources/templates/mentor/mentorList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/resources/templates/student/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/resources/templates/student/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/test/java/com/example/spring08springbootmvcmodelveiwthymeleaf/Spring08SpringBootMvcModelVeiwThymeLeafApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/mvnw.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/src/main/java/com/example/spring11resthttplegacy/Spring11RestHttpLegacyApplication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/src/main/java/com/example/spring11resthttplegacy/entity/Product.java" afterDir="false" />
@@ -31,15 +35,6 @@
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/src/main/java/com/example/spring11resthttplegacy/service/ProductService.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Spring-11-Rest-Http-Legacy/src/test/java/com/example/spring11resthttplegacy/Spring11RestHttpLegacyApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/src/main/java/com/springdemo/rest1/Rest1Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest1/src/test/java/com/springdemo/rest1/Rest1ApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -74,10 +69,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Enum" />
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -136,25 +131,29 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "openjdk-20",
-    "last_opened_file_path": "C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-02-DI-SetterInjection/src/main/java/org/example/services",
+    "last_opened_file_path": "C:/Users/yuliy/WorkSpace/JD_Spring_23/Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf/src/main/resources/templates/mentor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.5011494",
     "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "8358444bc89aac6c10c473e814fb965a",
+    "spring.configuration.checksum": "faa018c0fef12c14c667cf868e5ff591",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf\src\main\resources\templates\mentor" />
+      <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf\src\main\resources\templates\student" />
       <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-02-DI-SetterInjection\src\main\java\org\example\services" />
       <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-02-DI-SetterInjection\src\main\java\org\example\interfaces" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf\src\main\resources\templates\student" />
       <recent name="C:\Users\yuliy\WorkSpace\JD_Spring_23\Spring-01-SpringContainer\src\main\java\org" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -171,7 +170,7 @@
       <recent name="services" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.Spring08SpringBootMvcControllerApplication">
+  <component name="RunManager" selected="Spring Boot.Spring08SpringBootMvcModelVeiwThymeLeafApplication">
     <configuration name="AppDI_1" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.AppDI_1" />
       <module name="Spring-02-DI-ConstructorInjection" />
@@ -271,6 +270,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Spring08SpringBootMvcModelVeiwThymeLeafApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Spring-08-SpringBoot-MVC-Model-VeiwThymeLeaf" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring08springbootmvcmodelveiwthymeleaf.Spring08SpringBootMvcModelVeiwThymeLeafApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Spring11RestHttpLegacyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-11-Rest-Http-Legacy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.spring11resthttplegacy.Spring11RestHttpLegacyApplication" />
@@ -310,7 +316,9 @@
       <workItem from="1686614958728" duration="5178000" />
       <workItem from="1686690066289" duration="2307000" />
       <workItem from="1686748620801" duration="9066000" />
-      <workItem from="1686779330062" duration="15717000" />
+      <workItem from="1686779330062" duration="17220000" />
+      <workItem from="1687042647810" duration="12878000" />
+      <workItem from="1687373024556" duration="10519000" />
     </task>
     <task id="LOCAL-00001" summary="Tightly Coupled">
       <created>1686265212732</created>
@@ -410,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686774079020</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="SpringBoot MVC Controller">
+      <created>1686939851044</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1686939851044</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,6 +458,7 @@
     <MESSAGE value="Java Code - PostConstruct PreDeploy" />
     <MESSAGE value="Spring Boot demo" />
     <MESSAGE value="Carpet cost calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Carpet cost calculator" />
+    <MESSAGE value="SpringBoot MVC Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="SpringBoot MVC Controller" />
   </component>
 </project>

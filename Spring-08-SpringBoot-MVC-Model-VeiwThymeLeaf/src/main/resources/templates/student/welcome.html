@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<h1>Welcome!</h1>
+
+<!-- text-->
+<h3 th:text="${name}"></h3>
+<h3 th:text="${'Hello, ' + name}"></h3>
+
+<h2>Course: <span th:text="${course}"></span></h2>
+<h2>Instructor: <span th:text="${instructor}"></span></h2>
+<h3 th:text="${subject}"></h3>
+<h3 th:text="${id}"></h3>
+<h3 th:text="${numbers}"></h3>
+<h3 th:text="${numbers.get(0)}"></h3>
+<h3 th:text="${dob}"></h3>
+
+<h2>Display student</h2>
+<h3 th:text="${student.getFirstName()}"></h3>
+<!-- we can access this way - Spring will run getter-->
+<h3 th:text="${student.lastName}"></h3>
+
+<!-- Link -->
+<a th:href="@{http://amazon.com}">Amazon site</a>
+<h2>Link to registration</h2>
+<a th:href="@{/student/register}">Register</a>
+
+<!-- Adding Parameter to Link -->
+<p></p>
+<a th:href="@{/student/welcome(id=3)}">Link2</a>
+<a th:href="@{/student/welcome(id=${student.id})}">Link to student</a>
+
+<!--Iteration-->
+<ul>
+    <li th:each="number : ${numbers}" th:text="${number}"></li>
+</ul>
+<!--Fragment-->
+<div th:replace="fragments/footer :: footerCR"></div>
+</body>
+</html>
